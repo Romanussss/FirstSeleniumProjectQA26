@@ -28,6 +28,8 @@ public class RegisterTest {
         driver.findElement(By.cssSelector("#password")).sendKeys("1234567");
         driver.findElement(By.cssSelector("#confirmation")).sendKeys("1234567");
         driver.findElement(By.cssSelector("#form-validate > div.buttons-set > button > span > span"));
+        driver.findElement(By.cssSelector("#form-validate > div.fieldset > ul > li.control > label")).click();
+
 
 
     }
