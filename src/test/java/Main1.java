@@ -8,8 +8,7 @@ public class Main1 {
 //        login.loginWithInvalidPasswordTest();
 //        login.loginWithoutCredentialsTest();
         RegisterTest register = new RegisterTest();
-        register.registerCreditendials();
-
+        register.registerCreditendials();;
 
     }
 
